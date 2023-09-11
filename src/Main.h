@@ -1,7 +1,7 @@
 #include <iostream>
 #include <Windows.h>
 
-void menu(bool STATUS)
+void menu(bool STATUS, int CLICKS_PER_SECOND)
 {
     system("cls");
     system("color 4");
@@ -20,6 +20,8 @@ void menu(bool STATUS)
     {
         std::cout << "Status: OFF" << std::endl;
     }
+
+    std::cout << "CPS: " << CLICKS_PER_SECOND << std::endl;
 }
 
 void click()
