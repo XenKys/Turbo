@@ -2,7 +2,7 @@
 
 A simple autoclicker
 
-![Turbo Clicker v1.0](https://i.imgur.com/iLTJ6A2.png)
+![Turbo Clicker v1.0 image](https://i.imgur.com/iLTJ6A2.png)
 
 ## Getting started
 
@@ -11,4 +11,4 @@ A simple autoclicker
 
 **NOTE**: This autoclicker simulates only the left click of the mouse
 
-<iframe width="560" height="315" src="https://i.imgur.com/TMTXFA1.mp4" frameborder="0" allowfullscreen></iframe>
+![Turbo Clicker v1.0 video](https://i.imgur.com/TMTXFA1.mp4)
