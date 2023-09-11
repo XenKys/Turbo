@@ -4,7 +4,6 @@
 void menu(bool STATUS, int CLICKS_PER_SECOND)
 {
     system("cls");
-    system("color 4");
 
     std::cout << "  ______           __        " << std::endl;
     std::cout << " /_  __/_  _______/ /_  ____ " << std::endl;
