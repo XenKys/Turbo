@@ -4,6 +4,10 @@ A simple autoclicker
 
 ![Turbo Clicker v1.0](https://i.imgur.com/iLTJ6A2.png)
 
+## Download
+
+The download is on the latest release assets
+
 ## Usage
 
 - Enter the clicks per second and press enter
