@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include "Main.h"
 
-bool STATUS = false;
+bool CLICKER_STATUS = false;
 int CLICKS_PER_SECOND;
 
 void clicker()
@@ -11,12 +11,12 @@ void clicker()
     {
         if (GetAsyncKeyState(VK_MBUTTON) & 1)
         {
-            STATUS = !STATUS;
+            CLICKER_STATUS = !CLICKER_STATUS;
 
-            menu(STATUS, CLICKS_PER_SECOND);
+            menu(CLICKER_STATUS, CLICKS_PER_SECOND);
         }
 
-        if (STATUS)
+        if (CLICKER_STATUS)
         {
             click();
             Sleep(1000 / CLICKS_PER_SECOND);
