@@ -17,14 +17,9 @@ void menu(bool STATUS, int CLICKS_PER_SECOND)
 
     printTurbo();
 
-    if (STATUS)
-    {
-        std::cout << "Status: ON" << std::endl;
-    }
-    else
-    {
-        std::cout << "Status: OFF" << std::endl;
-    }
+    std::string STATUS_TEXT = STATUS ? "ON" : "OFF";
+
+    std::cout << "Status: " + STATUS_TEXT << std::endl;
 
     std::cout << "CPS: " << CLICKS_PER_SECOND << std::endl;
 }
