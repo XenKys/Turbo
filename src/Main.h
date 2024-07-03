@@ -1,15 +1,21 @@
 #include <iostream>
 #include <Windows.h>
+#include <string>
 
-void menu(bool STATUS, int CLICKS_PER_SECOND)
+void printTurbo()
 {
-    system("cls");
-
     std::cout << "  ______           __        " << std::endl;
     std::cout << " /_  __/_  _______/ /_  ____ " << std::endl;
     std::cout << "  / / / / / / ___/ __ \\/ __ \\" << std::endl;
     std::cout << " / / / /_/ / /  / /_/ / /_/ /" << std::endl;
     std::cout << "/_/  \\__,_/_/  /_.___/\\____/ " << std::endl;
+}
+
+void menu(bool STATUS, int CLICKS_PER_SECOND)
+{
+    system("cls");
+
+    printTurbo();
 
     if (STATUS)
     {

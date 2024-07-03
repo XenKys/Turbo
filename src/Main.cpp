@@ -30,11 +30,8 @@ int main()
 
     system("color 4");
 
-    std::cout << "  ______           __        " << std::endl;
-    std::cout << " /_  __/_  _______/ /_  ____ " << std::endl;
-    std::cout << "  / / / / / / ___/ __ \\/ __ \\" << std::endl;
-    std::cout << " / / / /_/ / /  / /_/ / /_/ /" << std::endl;
-    std::cout << "/_/  \\__,_/_/  /_.___/\\____/ " << std::endl;
+    printTurbo();
+
     std::cout << "Status: OFF" << std::endl;
     std::cout << "CPS: ";
     std::cin >> CLICKS_PER_SECOND;
